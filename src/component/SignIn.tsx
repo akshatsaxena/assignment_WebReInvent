@@ -38,9 +38,9 @@ const SignIn =()=>{
           <div className="my-3 text-4xl font-bold tracking-wider text-center">
             <a href="#">User Dashboard</a>
           </div>
-          <p className="mt-6 font-normal text-center text-gray-300 md:mt-0">
+          {/* <p className="mt-6 font-normal text-center text-gray-300 md:mt-0">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis enim voluptates ipsam eligendi earum minima deleniti culpa optio nobis aliquid beatae, obcaecati fugit autem atque consequatur, aliquam illum est vero.
-          </p>
+          </p> */}
           
         </div>
         <div className="p-5 bg-white md:flex-1">

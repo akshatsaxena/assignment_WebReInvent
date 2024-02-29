@@ -16,7 +16,7 @@ const Register=()=>{
             if(res?.token) {
                 alert("Sign Up SuccessFull")
                 //window.location.pathname = '/login'
-                navigate('/login')
+                navigate('/')
             }
 
         }
