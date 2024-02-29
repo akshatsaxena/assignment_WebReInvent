@@ -7,9 +7,9 @@
     logout: () => void;
   }
 
-  // authContext.ts
+
 interface AuthContextProps {
-  children: React.ReactNode; // Optional "children" prop
+  children: React.ReactNode;
 }
 
   export const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -18,7 +18,6 @@ interface AuthContextProps {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
  
     const login = () => {
-      
       setIsLoggedIn(true);
     };
 
